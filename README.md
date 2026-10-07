@@ -14,13 +14,12 @@ You can use my tweak on Snapchat with tweak injection disabled in choicy and it 
 - Videos loop automatically.
 - Video audio can be used with the virtual camera.
 - Pictures stay on screen as a still camera feed while your normal microphone remains available.
-- Works with the stock Camera app and supported third-party apps such as Discord.
+- Works with the stock Camera app and supported third-party apps such as Discord, Snapchat etc.
 - Automatically handles video orientation.
 - Rotation options: **0°, 90°, 180° and 270°**.
 - Flip the feed **horizontally or vertically**.
-- Control it from **Settings** or the floating VCam menu.
-- Green status = enabled. Red status = disabled.
-- 
+- Control it from **Settings** or the floating UI button.
+
 ## Technical
 
 VCam hooks into the iOS camera pipeline and replaces the camera frames with frames decoded from your selected media.
