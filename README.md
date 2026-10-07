@@ -36,4 +36,4 @@ The media handling is designed to avoid blocking camera callbacks when looping v
 
 ### Choicy
 
-If you use a custom Choicy configuration for an app, make sure **Virtual Cam is allowed to inject into that app**.
+If you use a custom Choicy configuration for discord, make sure to not disable all tweaks. Just disable snowboard in the Deny section as this causes Discord to bug out.
