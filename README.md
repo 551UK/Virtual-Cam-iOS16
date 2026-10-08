@@ -10,6 +10,10 @@ You can use my tweak on Snapchat with tweak injection disabled in choicy and it 
 
 I have added an app whitelist incase you dont want it injected into certain apps.
 
+## Source code
+
+If you need to source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCAM tweak is charging money for it. To avoid people using my source code and adding to it to make money its currently closed source.
+
 ## What it does
 
 - Use a selected **video or picture** as your camera.
