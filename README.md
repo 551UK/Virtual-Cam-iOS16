@@ -34,7 +34,7 @@ The media handling is designed to avoid blocking camera callbacks when looping v
 
 ## Requirements
 
-- iOS 15 or later
+- iOS 16 is what i have tested
 - Rootless jailbreak
 - ElleKit
 - PreferenceLoader
