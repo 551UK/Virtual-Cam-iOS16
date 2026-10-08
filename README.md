@@ -12,7 +12,7 @@ I have added an app whitelist incase you dont want it injected into certain apps
 
 ## Source code
 
-If you need the source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCAM tweak is charging money for it. To avoid people using my source code and expanding on it to make money, its currently closed source. The tweak is will remain free, take it or leave it. 
+If you need the source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCAM tweak is charging money for it. To avoid people using my source code and expanding on it to make money, its currently closed source. The tweak is pretty much completed and fully functional and it will remain free, dont beg me for the source code to be used in your paid tweak. 
 
 ## What it does
 
