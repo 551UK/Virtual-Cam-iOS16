@@ -8,6 +8,8 @@ Tested working on my devices on apps such as Snapchat, Discord, Camera App, Tikt
 
 You can use my tweak on Snapchat with tweak injection disabled in choicy and it will import videos and pictures from camera roll.
 
+I have added an app whitelist incase you dont want it injected into certain apps.
+
 ## What it does
 
 - Use a selected **video or picture** as your camera.
