@@ -10,10 +10,6 @@ You can use my tweak on Snapchat with tweak injection disabled in choicy and it 
 
 I have added an app whitelist incase you dont want it injected into certain apps.
 
-## Source code
-
-If you need the source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCam tweak are trying to charging money for it. To avoid people using my source code and expanding on it to make money, its currently closed source & the source code will remain on my private repo. The tweak is pretty much completed and fully functional and it will remain free, dont beg me for the source code to be used in your paid tweak. Any bugs, issues or improvement ideas let me know and i will update the tweak.
-
 ## What it does
 
 - Use a selected **video or picture** as your camera.
@@ -26,6 +22,10 @@ If you need the source code for your own project & have something i might be int
 - Flip the feed **horizontally or vertically**.
 - Control it from **Settings** or the floating UI button.
 
+  ## Source code
+
+If you need the source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCam tweak are trying to charging money for it. To avoid people using my source code and expanding on it to make money, its currently closed source & the source code will remain on my private repo. The tweak is pretty much completed and fully functional and it will remain free, dont beg me for the source code to be used in your paid tweak. Any bugs, issues or improvement ideas let me know and i will update the tweak.
+
 ## Technical
 
 VCam hooks into the iOS camera pipeline and replaces the camera frames with frames decoded from your selected media.
@@ -34,7 +34,7 @@ The media handling is designed to avoid blocking camera callbacks when looping v
 
 ## Requirements
 
-- iOS 16 is what i have tested
+- iOS 16.3 Rootless & iOS 16.2 Roothide (Tested on my personal devices)
 - Rootless jailbreak
 - ElleKit
 - PreferenceLoader
