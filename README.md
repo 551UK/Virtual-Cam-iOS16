@@ -1,4 +1,4 @@
-# Virtual Cam
+# Virtual Cam iOS 16 Rootless & Roothide.
 
 A system-wide virtual camera for **rootless & roothide iOS 16**. I have recently added roothide support in releases. 
 
