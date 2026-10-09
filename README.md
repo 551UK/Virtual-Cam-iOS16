@@ -1,45 +1,26 @@
-# Virtual Cam
+# Virtual Cam — RootHide
 
-A system-wide virtual camera for **rootless iOS 16**.
+This branch contains the **RootHide build** of Virtual Cam for iOS 16.
 
 Virtual Cam lets you choose a **video (with audio) or photo from your library** and use it in place of your real camera feed.
 
-Tested working on apps such as Snapchat, Discord, Camera App, Tiktok, Instagram etc. All apps should work. 
+The RootHide build keeps the working Camera-side floating UI and uses a small RootHide launch daemon to load the camera pipeline components into `mediaserverd`, because the normal rootless TweakLoader path does not reliably load those components there under RootHide.
 
-You can use my tweak on Snapchat with tweak injection disabled in choicy and it will import videos and pictures from camera roll.
+## Features
 
-I have added an app whitelist incase you dont want it injected into certain apps.
-
-## Source code
-
-If you need the source code for your own project & have something i might be interested in feel free to message me. Currently its not open-source since anyone running any kind of vCAM tweak is charging money for it. To avoid people using my source code and expanding on it to make money, its currently closed source & the source code will remain on my private repo. The tweak is pretty much completed and fully functional and it will remain free, dont beg me for the source code to be used in your paid tweak. Any bugs/issues reported i will fix myself just DM me.
-
-## What it does
-
-- Use a selected **video or picture** as your camera.
-- Videos loop automatically.
-- Video audio can be used with the virtual camera.
-- Pictures stay on screen as a still camera feed while your normal microphone remains available.
-- Works with the stock Camera app and supported third-party apps such as Discord, Snapchat etc.
-- Automatically handles video orientation.
-- Rotation options: **0°, 90°, 180° and 270°**.
-- Flip the feed **horizontally or vertically**.
-- Control it from **Settings** or the floating UI button.
-
-## Technical
-
-VCam hooks into the iOS camera pipeline and replaces the camera frames with frames decoded from your selected media.
-
-The media handling is designed to avoid blocking camera callbacks when looping videos, changing apps or switching sources. It also includes retry protection for `AVAssetReader` and cleanup for the floating media picker.
+- Selected videos or pictures replace the real camera feed.
+- Videos loop and can provide their audio as the virtual microphone.
+- Pictures remain as a still feed while the normal microphone stays available.
+- Floating UI in the stock Camera app.
+- Settings controls, media orientation, rotation and flip options.
+- App whitelist support.
 
 ## Requirements
 
-- iOS 16 is what i have tested
-- Rootless jailbreak
+- iOS 16
+- RootHide
 - ElleKit
 - PreferenceLoader
 - libSandy (`com.opa334.libsandy`)
 
-### Choicy
-
-If you use a custom Choicy configuration for discord, make sure to not disable all tweaks. Just disable snowboard in the Deny section as this causes Discord to bug out.
+The tweak source itself remains closed-source. This branch keeps only the clean RootHide package layout and loader required for the RootHide package.
