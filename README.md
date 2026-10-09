@@ -4,11 +4,13 @@ A system-wide virtual camera for **rootless & roothide iOS 16**. I have recently
 
 Virtual Cam lets you choose a **video (with audio) or photo from your library** and use it in place of your real camera feed.
 
-Tested working on apps such as Snapchat, Discord, Camera App, Tiktok, Instagram etc. All apps should work. 
+Its tested working on apps such as Snapchat, Discord, Camera App, Tiktok, Instagram etc. All apps should work. 
 
-You can use my tweak on Snapchat with tweak injection disabled in choicy and it will import videos and pictures from camera roll.
+You can use my tweak on Snapchat with tweak injection disabled in Choicy and it will import videos and pictures from camera roll.
 
 I have added an app whitelist incase you dont want it injected into certain apps.
+
+**DISCLAIMER: Virtual Cam is intended for legitimate testing and personal use only; the developer is not responsible for misuse, deception, fraud, impersonation, harassment, or any other unlawful or harmful activity carried out with it.** 
 
 ## What it does
 
