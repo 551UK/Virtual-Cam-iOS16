@@ -1,6 +1,6 @@
 # Virtual Cam
 
-A system-wide virtual camera for **rootless iOS 16**. & Also roothide.
+A system-wide virtual camera for **rootless & roothide iOS 16**. I have recently added roothide support in releases. 
 
 Virtual Cam lets you choose a **video (with audio) or photo from your library** and use it in place of your real camera feed.
 
